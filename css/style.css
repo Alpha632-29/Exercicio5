@@ -97,3 +97,63 @@ section {
   border-radius: 8px;/* Arredonda os cantos da caixa para deixar o visual mais moderno e amigável */
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);/* Cria uma sombra leve ao redor da seção, dando um efeito de profundidade */
 }
+/*
+body{
+    background: #747892;
+}
+
+h1,h2,h3{
+    color:rebeccapurple;
+}
+
+p{
+    color: red;
+}
+
+/*Seletor para todos os elementos*/
+*{
+    padding: 20px;
+}
+
+.center{
+    text-align:center;
+}
+
+.verde{
+    color:green;
+}
+
+/*Seletor de classe e tag, só funciona em h1*/
+h1.center{
+    text-align:center;
+    color:bisque;
+}
+
+/*Seletor de evento ou pseudoclasses*/
+h1:hover{
+    background-color: yellow;
+}
+
+a:link{
+    color:red;
+}
+
+/*Seletores combinados ou descendentes*/
+div p{
+    background-color: yellow;
+}
+
+/*Seletores pai e filho (só pega os que tiverem dentro do filho)*/
+div > p{
+    background-color: blue;
+}
+
+/*Seletores id*/
+#capitulo1{
+    color: black;
+}
+
+#capitulo2{
+    color: white;
+}
+*/
