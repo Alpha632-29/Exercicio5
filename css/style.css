@@ -96,6 +96,121 @@ section {
   margin: 20px 0;/* Espaço externo acima e abaixo de cada seção para separá-las visualmente */
   border-radius: 8px;/* Arredonda os cantos da caixa para deixar o visual mais moderno e amigável */
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);/* Cria uma sombra leve ao redor da seção, dando um efeito de profundidade */
+
+/*Abaixo continuação*/
+* {
+    box-sizing: border-box; /* Faz com que largura e altura incluam padding e borda */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove espaçamentos internos padrão */
+}
+
+body {
+    font-family: Sans-Serif; /* Define a fonte base da página */
+    line-height: 38px; /* Espaçamento vertical entre as linhas */
+    color: black; /* Cor do texto */
+    background-color: white; /* Cor de fundo */
+    padding: 40px; /* Espaçamento interno geral */
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+
+#main-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Gradiente diagonal azul/roxo */
+    color: black; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    display: flex; /* Layout em linha */
+    align-items: center; /* Alinha os itens */
+    gap: 12px; /* Espaço entre os elementos */
+    border-radius: 0;/* Arredondamento do fundo */
+}
+
+#main-header h1 {
+    font-size: 28px; 
+    margin-bottom: 10px; 
+    font-weight: 700;
+}
+
+img {
+    border-radius: 15px; /* Arredonda os cantos da imagem */
+    border: 3px solid #4a90e2; /* Borda sólida azul */
+}
+
+/* Estilo para elementos <address> */
+address {
+    font-style: italic; 
+}
+
+/* Estilo para os parágrafos dentro de address */
+address p {
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+    color :black;
+}
+
+/* Estilo padrão para os títulos secundários */
+h2 {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+/* Lista ordenada customizada */
+ol {
+    padding-left: 0; /* Remove indentação padrão */
+}
+
+ol > li {
+    list-style: none; /* Remove a numeração padrão */
+    counter-increment: item; /* Cria um contador numérico */
+    margin-bottom: 20px;
+    position: relative; /* Necessário para posicionar ::before */
+    padding: 16px 16px 16px 48px; /* Espaço para o número à esquerda */
+    background-color: #f0f0f5; /* Fundo suave */
+    border-radius: 6px;
+    border-left: 5px solid #667eea; /* Linha decorativa */
+}
+
+/* Número estilizado à esquerda de cada item */
+ol > li::before {
+    content: counter(item); /* Exibe o número da lista */
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    background: #667eea;
+    color: white;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+/*Acima a continuação*/
+
+
 }
 /*
 body{
