@@ -19,7 +19,7 @@ body {
     background-color: #f9f9f9;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    padding: 40px;
+    padding: 0px;
 }
 
 
@@ -29,7 +29,7 @@ body {
     padding: 20px; /* Espaçamento interno */
     display: flex; /* Layout em linha */
     align-items: center; /* Alinha os itens */
-    gap: 150px; /* Espaço entre os elementos */
+    gap: 200px; /* Espaço entre os elementos */
     border-radius: 0;/* Arredondamento do fundo */
 }
 
@@ -63,6 +63,12 @@ h2 {
     margin-bottom: 12px;
     text-align: left;
     font-weight: bold;
+}
+
+
+/* Lista ordenada customizada */
+ol {
+    padding-left: 1; /* Remove indentação padrão */
 }
 
 ol > li {
@@ -116,12 +122,12 @@ a:hover{
 }
 
 h3.titulo-formacao{
-    font-size: 25px; /*Define o tamanho do texto*/
-    font-weight: 700; /*Define a espessura do texto*/
-    color: black; /*Cor do texto*/
-    margin-bottom: 1%; /*Define o espaçamento da margem inferior*/
-    transition: 0.5s ease-in-out, 0.3s linear; /*Definir a transição de estado de um elemento ()*/
-    cursor: pointer; /*Define a aparência do ponteiro do mouse*/
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 1%;
+    transition: 0.5s ease-in-out, 0.3s linear;;
+    cursor: pointer;
 }
 
 h3.titulo-formacao:hover{
