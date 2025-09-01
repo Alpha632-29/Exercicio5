@@ -116,12 +116,12 @@ a:hover{
 }
 
 h3.titulo-formacao{
-    font-size: 25px;
-    font-weight: 700;
-    color: black;
-    margin-bottom: 1%;
-    transition: 0.5s ease-in-out, 0.3s linear;
-    cursor: pointer;
+    font-size: 25px; /*Define o tamanho do texto*/
+    font-weight: 700; /*Define a espessura do texto*/
+    color: black; /*Cor do texto*/
+    margin-bottom: 1%; /*Define o espaçamento da margem inferior*/
+    transition: 0.5s ease-in-out, 0.3s linear; /*Definir a transição de estado de um elemento ()*/
+    cursor: pointer; /*Define a aparência do ponteiro do mouse*/
 }
 
 h3.titulo-formacao:hover{
