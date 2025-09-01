@@ -34,9 +34,9 @@ body {
 }
 
 #main-header h1 {
-    font-size: 28px; 
-    margin-bottom: 10px; 
-    font-weight: 700;
+    font-size: 28px; /*Tamanho da fonte*/
+    margin-bottom: 10px; /*Define o espaçamento na parte inferior de um elemento HTML*/
+    font-weight: 700; /*Define a espessura de um caractere*/
 }
 
 img {
@@ -44,90 +44,85 @@ img {
     border: 3px solid #4a90e2; /* Muda o tamanho e cor da borda */
 }
 
-/* Estilo para elementos <address> */
+
 address {
-    font-style: normal; 
+    font-style: normal; /*Define um estilo de fonte para um exto*/
 }
 
-/* Estilo para os parágrafos dentro de address */
+
 address p {
-    margin-bottom: 1px;
-    font-size: 1.1rem;
-    color :black;
+    margin-bottom: 1px; /*Define o espaçamento na parte inferior de um elemento HTML*/
+    font-size: 1.1rem; /*Tamanho da fonte*/
+    color :black; /*Cor do texto*/
 }
 
-/* Estilo padrão para os títulos secundários */
+
 h2 {
-    font-size: 25px;
-    color: black;
-    margin-bottom: 12px;
-    text-align: left;
-    font-weight: bold;
+    font-size: 25px; /*Tamanho da fonte do texto*/
+    color: black; /*Define a cor do texto*/
+    margin-bottom: 12px; /*Define o espaçamento na parte inferior de um elemento HTML*/
+    text-align: left; /*define o alinhamento horizontal do texto dentro de um elemento bloco*/
+    font-weight: bold; /*Definir a espessura de um elemento*/
 }
 
-
-/* Lista ordenada customizada */
-ol {
-    padding-left: 1; /* Remove indentação padrão */
-}
 
 ol > li {
     list-style: none; /* Remove a numeração padrão */
     counter-increment: item; /* Cria um contador numérico */
-    margin-bottom: 20px;
+    margin-bottom: 20px; /*Define o espaçamento exterior na parte inferior de um elemento HTML*/
     position: relative; /* Necessário para posicionar ::before */
     padding: 16px 16px 16px 48px; /* Espaço para o número à esquerda */
     background-color: #f0f0f5; /* Fundo suave */
-    border-radius: 6px;
+    border-radius: 6px; /*Serve para arredondar os cantos de um elemento*/
     border-left: 5px solid #667eea; /* Linha decorativa */
     
 }
 
-/* Número estilizado à esquerda de cada item */
+
 ol > li::before {
     content: counter(item); /* Exibe o número da lista */
-    position: absolute;
-    top: 1%;
-    left: -13px;
-    transform: translateY(-50%);
-    background: #667eea;
-    color: white;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 14px;
+    position: absolute; /*Controla a posição de um elemento*/
+    top: 1%; /*Posiciona o elemento para o topo*/
+    left: -13px; /*Define a distância de um elemento entre a borda esquerda do elemento e o elemento pai*/
+    transform: translateY(-50%); /*Permite a translação, rotação, dimensão e inclinação de um elemento*/
+    background: #667eea; /*Define a cor de fundo*/
+    color: white; /*Define a cor do texto*/
+    width: 24px; /*Define a largura*/
+    height: 24px; /*Define a altura*/
+    border-radius: 50%; /*Serve para arredondar os cantos de um elemento*/
+    display: flex; /*Mostra como o elemento será exibido*/
+    align-items: center; /*Controla o alinhamento dos itens no eixo transversal*/
+    justify-content: center; /*Controla o alinhamento e a distribuição do espaço entre os itens ao longo do eixo horizontal*/
+    font-weight: bold; /*Define a espessura de um elemento*/
+    font-size: 14px; /*Tamanho da fonte do texto*/
 }
 
 section {
-    background-color: #f5f5f5;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: #f5f5f5; /*Define a cor de fundo de um elemento HTML*/
+    padding: 20px; /*Define o espaçamento interno de um elemento*/
+    margin: 20px 0; /*Define o espaçamento externo de um elemento HTML*/
+    border-radius: 8px; /*Serve para arredondar os cantos de um elemento*/
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /*Adiciona efeitos de sombra à caixa*/
 }
 
 a {
-   color: blue;
-   text-decoration: underline;
-   border-bottom: thin; 
+   color: blue; /*Define a cor do texto*/
+   text-decoration: underline; /*Adicionar e controlar a aparência de uma linha sobre ou através do texto*/
+   border-bottom: thin; /*Define a borda inferior de um elemento*/
 }
 
 a:hover{
-    color:#667eea;
-    border-bottom-style: inset;
+    color:#667eea; 
+    border-bottom-style: inset; 
 }
 
 h3.titulo-formacao{
-    font-size: 25px;
-    font-weight: 700;
-    color: black;
-    margin-bottom: 1%;
-    transition: 0.5s ease-in-out, 0.3s linear;;
-    cursor: pointer;
+    font-size: 25px; /*Define o tamanho do texto */
+    font-weight: 700; /*Define a espessura de um caractere*/
+    color: black; /*Define a cor de um elemento no CSS*/
+    margin-bottom: 1%; /*Define o espaçamento na parte inferior de um elemento HTML*/
+    transition: 0.5s ease-in-out, 0.3s linear; /*Alteração gradual e suave de uma propriedade CSS*/
+    cursor: pointer; /*Define o tipo de ponteiro*/
 }
 
 h3.titulo-formacao:hover{
